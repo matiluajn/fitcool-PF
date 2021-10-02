@@ -1,0 +1,17 @@
+@media (min-width: 768px) {
+    main {
+        .col-lg-4:hover {
+            transform: scale(1.2);
+            border: outset 1px rgb(248, 233, 24);
+            background: rgb(173, 173, 167);
+        }
+        div {
+            .imgCol:hover {
+                transform: scale(1.2);
+                border: outset 1px rgb(0, 0, 0);
+                background: rgb(173, 173, 167);
+                opacity: 70%;
+            }
+        }
+    }
+}
