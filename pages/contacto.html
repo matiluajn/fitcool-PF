@@ -39,6 +39,9 @@
     <!-- conexion a los examples bootstrap -->
     <link href="../css/headers.css" rel="stylesheet">
 
+    <!-- conexion a aos-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- conexion a css/stylo-->
     <link rel="stylesheet" href="../css/stylo.css">
 
@@ -49,7 +52,7 @@
 
     <!--Header/navegador-->
     <header class="p-3 bg-dark text-white">
-        <nav class="container">
+        <nav>
             <nav class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                 <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
                     <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
@@ -72,18 +75,18 @@
         </nav>
     </header>
 
-    <!--main/carrusel-->
+    <!--main-->
     <main class="ccontainer-fluid">
 
         <div class="row justify-content-center">
-            <div class="col-sm-4">
+            <div class="col-sm-4 bg-warning">
                 <h2>Realice su consulta!</h2>
                 <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <label for="exampleFormControlInput1" class="form-label">Direccion Email</label>
                     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
                 </div>
                 <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                    <label for="exampleFormControlTextarea1" class="form-label">Ingrese su consulta</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
                 <button type="button" class="btn btn-primary btn-sm">Enviar</button>
@@ -98,6 +101,8 @@
 
     </main>
 
+    <hr class="featurette-divider">
+
     <!-- FOOTER -->
     <footer class="container ">
         <p class="float-end"><a href="#">Back to top</a></p>
@@ -110,6 +115,10 @@
         </div>
     </footer>
     <script src="../css/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

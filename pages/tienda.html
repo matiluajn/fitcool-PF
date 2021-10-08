@@ -41,6 +41,9 @@
     <link href="../css/carousel.css" rel="stylesheet">
     <link href="../css/product.css" rel="stylesheet">
 
+    <!-- conexion a aos-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- conexion a css/stylo-->
     <link rel="stylesheet" href="../css/stylo.css">
 
@@ -51,7 +54,7 @@
 
     <!--Header/navegador-->
     <header class="p-3 bg-dark text-white">
-        <nav class="container">
+        <nav>
             <nav class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                 <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
                     <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
@@ -75,7 +78,7 @@
     </header>
 
     <!--main/-->
-    <main class="container">
+    <main data-aos="fade-down-right" class="container">
         <!--cabezal-->
         <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
             <div class="col-md-5 p-lg-5 mx-auto my-5">
@@ -188,6 +191,10 @@
         </div>
     </footer>
     <script src="../css/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
