@@ -1,18 +1,23 @@
-@media (min-width: 768px) {
-    .imgCarru {
-        height: 265px;
+    @media (min-width: 768px) {
+        .imgCarru {
+            height: 265px;
+        }
+        .tituloH {
+            color: rgb(255, 238, 0);
+            text-shadow: -2px -2px 1px black
+        }
     }
+    
     .tituloH {
         color: rgb(255, 238, 0);
         text-shadow: -2px -2px 1px black
     }
-}
-
-.imgCarru {
-    width: 100%;
-}
-
-.pCarru {
-    color: rgb(255, 238, 0);
-    text-shadow: -2px -2px 1px black
-}
+    
+    .imgCarru {
+        width: 100%;
+    }
+    
+    .pCarru {
+        color: rgb(255, 238, 0);
+        text-shadow: -2px -2px 1px black
+    }

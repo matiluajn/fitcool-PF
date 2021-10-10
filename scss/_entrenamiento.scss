@@ -1,5 +1,22 @@
 #h1Entrenamiento {
     text-align: center;
-    color: rgb(16, 48, 231);
-    text-shadow: -2px -2px 1px black
+    font-size: 55px;
+    animation: fluido 10s ease-in-out infinite;
+    background: linear-gradient(-45deg, #298797, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 300%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes fluido {
+    0% {
+        background-position: 0 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0 50%
+    }
 }
