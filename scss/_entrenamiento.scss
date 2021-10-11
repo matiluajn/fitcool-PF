@@ -1,6 +1,6 @@
 #h1Entrenamiento {
     text-align: center;
-    font-size: 55px;
+    font-size: 35px;
     animation: fluido 10s ease-in-out infinite;
     background: linear-gradient(-45deg, #298797, #e73c7e, #23a6d5, #23d5ab);
     background-size: 300%;
@@ -18,5 +18,11 @@
     }
     100% {
         background-position: 0 50%
+    }
+}
+
+@media(min-width:768px) {
+    .h1Entrenamiento {
+        font-size: 50px !important;
     }
 }
